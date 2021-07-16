@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        /* 1 */
+        .margin {
+            width: 100px;
+            height: 100px;
+            background: pink;
+            margin: 0 auto;
+        }
+
+        .left {
+            width: 100px;
+            height: 100px;
+            background: pink;
+        }
+
+        .right {
+            width: 100px;
+            height: 100px;
+            background: pink;
+            margin-left: auto;
+        }
+
+
+        .text {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .text-right {
+            text-align: right;
+            margin-top: 10px;
+        }
+
+        .box{
+            width: 100%;
+        }
+        .box-margin {
+            float: left;
+            position: relative;
+            left: 50%;
+        }
+        .mar{
+            width: 100px;
+            height: 100px;
+            background: pink;
+            position: relative;
+            right: 150%;
+        }
+
+        .box-left {
+            width: 100px;
+            height:100px;
+            background: pink;
+            float:left;
+        }
+
+        .box-right {
+            width: 100px;
+            height: 100px;
+            background: pink;
+            float: right;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 1 -->
+    <div class="margin"></div>
+    <div class="left"></div>
+    <div class="right"></div>
+
+    <!-- 文字居中 -->
+    <div class="text">TEXT</div>
+    <div class="text-left">TEXT</div>
+    <div class="text-right">TEXT</div>
+
+    <!-- 并列 -->
+    <div class="box">
+        
+        <div class="box-left"></div>
+        <div class="box-right"></div>
+    </div>
+    <div class="box">
+        <div class="box-margin">
+            <div class="mar"></div>
+        </div>
+    </div>
+</body>
+
+</html>
